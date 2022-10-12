@@ -9,13 +9,80 @@ public final class Task6 {
     final Scanner scanner = new Scanner(System.in);
     final int number = scanner.nextInt();
     scanner.close();
-    (number + "").length();
-    String.valueOf(number).length();
+    if (number < 0) {
+      output.println("Die Zahl darf nicht negativ sein!");
+      return;
+    }
+    if (number > 9999) {
+      output.println("Die Zahl muss kleiner als 10 000 sein!");
+      return;
+    }
+    String numberString = "";
+    final String digit1 = digitToString(number / 1000 % 10);
+    if (digit1 != "") {
+      numberString += digit1 + "tausend";
+    }
+    final String digit2 = digitToString(number / 100 % 10);
+    if (digit2 != "") {
+      numberString += digit2 + "hundert";
+    }
+    String digit3 = digitToString(number / 10 % 10);
+    switch (digit3) {
+      case "ein":
+        digit3 = "zehn";
+        break;
+      case "zwei":
+        digit3 = "zwanzig";
+        break;
+      case "sieben":
+        digit3 = "siebzig";
+        break;
+      default:
+        if (digit3 != "") {
+          digit3 += "zig";
+        }
+    }
+    final String digit4 = digitToString(number % 10);
+    switch (digit4) {
+      case "":
+        if (digit1 == "" && digit2 == "" && digit3 == "") {
+          numberString = "null";
+          break;
+        }
+        numberString += digit3;
+        break;
+      case "ein":
+        if (digit3 == "") {
+          numberString += "eins";
+          break;
+        }
+        if (digit3 == "zehn") {
+          numberString += "elf";
+          break;
+        }
+      case "zwei":
+        if (digit3 == "zehn") {
+          numberString += "zwölf";
+          break;
+        }
+      default:
+        if (digit3 == "") {
+          numberString += digit4;
+          break;
+        }
+        if (digit3 == "zehn") {
+          numberString += digit4 + digit3;
+          break;
+        }
+        numberString += digit4 + "und" + digit3;
+    }
+    System.out.println(numberString);
+  }
 
-  private static String digitToString(byte digit) {
+  private static String digitToString(int digit) {
     switch (digit) {
       case 1:
-        return "eins";
+        return "ein";
       case 2:
         return "zwei";
       case 3:
