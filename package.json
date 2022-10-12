@@ -1,0 +1,19 @@
+{
+  "name": "@iammajo/soop-uebungen",
+  "version": "1.0.0",
+  "description": "Meine Lösungen für Übungen aus dem Kurs strukturierte und objektorientierte Programmierung der Hochschule Rhein-Waal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "volta": {
+    "node": "16.17.1",
+    "npm": "8.19.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-java": "^1.6.2"
+  }
+}
