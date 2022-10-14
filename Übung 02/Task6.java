@@ -18,7 +18,7 @@ public final class Task6 {
       return;
     }
     String numberString = "";
-    final String digit1 = digitToString(number / 1000 % 10);
+    final String digit1 = digitToString(number / 1000);
     if (digit1 != "") {
       numberString += digit1 + "tausend";
     }
@@ -76,7 +76,7 @@ public final class Task6 {
         }
         numberString += digit4 + "und" + digit3;
     }
-    System.out.println(numberString);
+    output.println(numberString);
   }
 
   private static String digitToString(int digit) {
