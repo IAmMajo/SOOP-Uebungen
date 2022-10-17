@@ -1,7 +1,7 @@
 import java.io.PrintStream;
 import java.util.Scanner;
 
-public class Task1 {
+public class Excercise02Task1 {
 
   public static void main(String[] args) {
     final PrintStream output = System.out;
