@@ -6,7 +6,6 @@
 
 Legen Sie sich ein neues Eclipse Projekt an. Legen Sie in diesem Projekt eine neue Klasse `RechteckAufgabe` an. Kopieren Sie den folgenden Java-Quelltext in diese Datei:
 
-
 ```java
 import java.util.Scanner;
 
@@ -33,11 +32,11 @@ public class RechteckAufgabe {
 
 Mit dem Programm sollen Rechteckberechnungen durchgeführt werden. Erweitern Sie das Programm so, dass es die folgenden Aufgaben erfüllt:
 
-* Einlesen der Länge eines Rechtecks von der Konsole
-* Einlesen der Breite eines Rechtecks von der Konsole
-* Berechnung des Umfangs des Rechtecks
-* Berechnung der Fläche des Rechtecks
-* Ausgabe der Ergebnisse (Anzeige der Eingabe, des Umfangs und der Fläche)
+- Einlesen der Länge eines Rechtecks von der Konsole
+- Einlesen der Breite eines Rechtecks von der Konsole
+- Berechnung des Umfangs des Rechtecks
+- Berechnung der Fläche des Rechtecks
+- Ausgabe der Ergebnisse (Anzeige der Eingabe, des Umfangs und der Fläche)
 
 Achten Sie darauf, dass Sie nur einen einzigen Scanner für beide Eingaben (Länge und Breite) verwenden. Insbesondere in den Miniprojekten kann Jack Ihre Lösung sonst nicht überprüfen und wertet sie als falsch.
 
@@ -86,7 +85,6 @@ Geben Sie eine ganze Zahl ein: 42
 
 Die Zahlen sind gleich groß.
 ```
-
 
 ### Aufgabe 4
 
@@ -155,15 +153,14 @@ Zahl [0..9999]: 5234
 fünftausendzweihundertvierunddreißig
 ```
 
-
 ### Aufgabe 7
 
 Schreiben Sie ein Programm, das verschiedene physikalische Berechnungen durchführen kann. Folgende Berechnungen sollen möglich sein:
 
-* (0)  Geschwindigkeit aus Weg und Zeit
-* (1) Kraft aus Masse und Beschleunigung
-* (2) Widerstand aus Spannung und Stromstärke
-* (3) Leistung aus Spannung und Stromstärke
+- (0) Geschwindigkeit aus Weg und Zeit
+- (1) Kraft aus Masse und Beschleunigung
+- (2) Widerstand aus Spannung und Stromstärke
+- (3) Leistung aus Spannung und Stromstärke
 
 Lesen Sie zuerst eine Benutzereingabe ein, die festlegt, welche Operation ausgeführt werden soll. Verwenden Sie die oben angegebenen Zahlen zwischen 0 und 3.
 
