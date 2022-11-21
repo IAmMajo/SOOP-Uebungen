@@ -38,17 +38,17 @@ Geben Sie die Höhe des Dreiecks an: 5
 
 # Aufgabe 2
 
-Schreiben Sie eine Methode **summe**, welche eine Zahl *n* entgegennimmt und die
+Schreiben Sie eine Methode **summe**, welche eine Zahl _n_ entgegennimmt und die
 Summe aller Ziffern der Zahl ohne die erste und ohne die letzte Ziffer
 zurückgibt.
 
 Beispiele:
 
 | Eingabe | Rückgabe |
-|--------:|----------|
-|    72451|        11|
-|       13|         0|
-|     3689|        14|
+| ------: | -------- |
+|   72451 | 11       |
+|      13 | 0        |
+|    3689 | 14       |
 
 # Aufgabe 3
 
@@ -58,8 +58,8 @@ Kantine oder Mensa.
 ## a)
 
 Schreiben Sie die Methode **isValidTransaction**, die bei einer gültigen
-Transaktion einen `boolean` mit dem Wert *true* zurückgibt. Falls die
-Transaktion ungültig ist, soll die Methode *false* zurückgeben. Eine Transaktion
+Transaktion einen `boolean` mit dem Wert _true_ zurückgibt. Falls die
+Transaktion ungültig ist, soll die Methode _false_ zurückgeben. Eine Transaktion
 ist genau dann gültig, wenn das Guthaben ausreichend ist.
 
 ## b)
@@ -67,36 +67,37 @@ ist genau dann gültig, wenn das Guthaben ausreichend ist.
 Schreiben Sie eine weitere Methode **recommendation**, die eine Empfehlung je
 nach Ernährungstyp zurück gibt.
 
-|    Eingabe    | Rückgabe |
-|--------------:|----------|
-|    Vegetarisch|  Salatbar|
-|       Low Carb|    Menü 2|
-| Kleiner Hunger|    Menü 1|
-|         Hunger|     Grill|
+|        Eingabe | Rückgabe |
+| -------------: | -------- |
+|    Vegetarisch | Salatbar |
+|       Low Carb | Menü 2   |
+| Kleiner Hunger | Menü 1   |
+|         Hunger | Grill    |
 
 ## c)
 
 Schreiben Sie eine dritte Methode **price**, welche den Preis für ein Menü
 zurück gibt.
 
-| Eingabe | Rückgabe |
-|--------:|----------|
-| Salatbar|       2.5|
-|   Menü 1|       1.0|
-|   Menü 2|       1.2|
-|    Grill|       3.8|
+|  Eingabe | Rückgabe |
+| -------: | -------- |
+| Salatbar | 2.5      |
+|   Menü 1 | 1.0      |
+|   Menü 2 | 1.2      |
+|    Grill | 3.8      |
 
 # Aufgabe 4
+
 Schreiben Sie eine Methode **convertMillisec**, die Millisekunden in Stunden,
 Minuten und Sekunden umwandelt.
 
 Die Methode gibt einen String im folgenden Format zurück:
-*stunden:minuten:sekunden*.
+_stunden:minuten:sekunden_.
 
 Beispiele:
 
-| Eingabe | Rückgabe |
-|--------:|----------|
-|     5500|  00:00:05|
-|   100000|  00:01:40|
-|123456789|  34:17:36|
+|   Eingabe | Rückgabe |
+| --------: | -------- |
+|      5500 | 00:00:05 |
+|    100000 | 00:01:40 |
+| 123456789 | 34:17:36 |
