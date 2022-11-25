@@ -5,7 +5,7 @@ public class MiniProject1Task03 {
   }
 
   public static String recommendation(String type) {
-    switch(type) {
+    switch (type) {
       case "Vegetarisch":
         return "Salatbar";
       case "Low Carb":
@@ -17,7 +17,7 @@ public class MiniProject1Task03 {
   }
 
   public static double price(String menu) {
-    switch(menu) {
+    switch (menu) {
       case "Salatbar":
         return 2.5;
       case "Menü 1":
