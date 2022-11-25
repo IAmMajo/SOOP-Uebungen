@@ -148,9 +148,7 @@ public final class PracticeII {
     return output;
   }
 
-  public static void main(final String[] args) {
-    createTable(gameAFS_praII, 6, 1);
-  }
+  public static void main(final String[] args) {}
 
   private static String repeatChar(final char toRepeat, final int repetitions) {
     String result = "";
