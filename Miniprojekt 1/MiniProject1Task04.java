@@ -1,4 +1,4 @@
-public class Aufgabe04 {
+public class MiniProject1Task04 {
 
   public static String convertMillisec(long ms) {
     int seconds = (int) (ms / 1000);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Aufgabe02 {
+public class MiniProject1Task02 {
 
   public static int summe(int n) {
     int result = 0;

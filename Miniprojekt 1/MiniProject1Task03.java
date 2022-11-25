@@ -1,4 +1,4 @@
-public class Aufgabe03 {
+public class MiniProject1Task03 {
 
   public static boolean isValidTransaction(double credit, double transaction) {
     return credit >= transaction;

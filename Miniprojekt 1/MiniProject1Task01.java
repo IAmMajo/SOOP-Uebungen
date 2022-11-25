@@ -1,7 +1,7 @@
 import java.io.PrintStream;
 import java.util.Scanner;
 
-public class Aufgabe01 {
+public class MiniProject1Task01 {
 
   public static void main(String[] args) {
     // Hier die Lösung eintragen
