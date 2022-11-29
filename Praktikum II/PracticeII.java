@@ -144,7 +144,6 @@ public final class PracticeII {
     for (int i = 0; i < n; i++) {
       output += String.format("%8d|", gameboard[n][i][0]);
     }
-    System.out.println(output);
     return output;
   }
 
