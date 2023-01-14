@@ -16,7 +16,7 @@ a) Konstruieren Sie zunächst auf dem Blatt Papier ein eigenes Adventure-Gameboa
 
 b) Versuchen Sie Ihr Gameboard als ASCII-Art Grafik darzustellen. Es reicht auch nur ein Ansatz, wie z.B.
 
-```
+```java
 	String gameboardOne=
 		     "   " +"  ***  "+"   "+"      "+"   "+"  ***  "  +"   "+" * "+"\n"
 			+"   " +"*     *"+"   "+"/\\  /\\"+"   "+"*     *"+"   "+"***"+"\n"
